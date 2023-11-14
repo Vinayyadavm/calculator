@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <form name="f">
+            <input type="text" name="ddd" placeholder="0">
+            <br>
+            <input type="button" value="1" onclick="f.ddd.value+=1">
+            <input type="button" value="2" onclick="f.ddd.value+=2">
+            <input type="button" value="3" onclick="f.ddd.value+=3">
+            <input type="button" value="+" onclick="add()">
+            <br>
+            <input type="button" value="4" onclick="f.ddd.value+=4">
+            <input type="button" value="5" onclick="f.ddd.value+=5">
+            <input type="button" value="6" onclick="f.ddd.value+=6">
+            <input type="button" value="-" onclick="sub()">
+            <br>
+            <input type="button" value="7" onclick="f.ddd.value+=7">
+            <input type="button" value="8" onclick="f.ddd.value+=8">
+            <input type="button" value="9" onclick="f.ddd.value+=9">
+            <input type="button" value="/" onclick="di()">
+            <br>
+            <input type="button" value="C" onclick="f.ddd.value=''">
+            <input type="button" value="0" onclick="f.ddd.value+=0">
+            <input type="button" value="=" onclick="calculate()">
+            <input type="button" value="x" onclick="mul()">
+        </form>
+    </div>
+</body>
+</html>
